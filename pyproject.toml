@@ -1,0 +1,17 @@
+[project]
+name = "discord-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "discord-py>=2.5.2",
+    "faiss-cpu>=1.10.0",
+    "google-genai>=1.8.0",
+    "openai>=1.69.0",
+    "requests>=2.32.3",
+    "sentence-transformers>=4.0.1",
+    "tiktoken>=0.9.0",
+    "tqdm>=4.67.1",
+]

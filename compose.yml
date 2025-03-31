@@ -1,0 +1,12 @@
+version: '3'
+services:
+  discord-rag:
+    build: .
+    container_name: discord-rag
+    environment:
+      - DISCORD_TOKEN=token
+      - GEMINI_API_KEY=token
+      - OPENAI_API_KEY=token
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
